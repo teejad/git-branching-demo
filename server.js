@@ -1,4 +1,4 @@
-// This is an example server
+// This is an example tea branch
 
 const express = require("express");
 const { Pool } = require("pg");
