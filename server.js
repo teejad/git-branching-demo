@@ -1,6 +1,7 @@
-// This is an example server
-//I can only remember how to write a comment
-//blah blah //
+// Teefeature
+// This is an example tee branch 
+
+
 const express = require("express");
 const { Pool } = require("pg");
 
@@ -9,11 +10,13 @@ app.use(express.json());
 
 //changed Pool details
 const pool = new Pool({
+
   host: "localhost",
   port: 5432,
   user: "codeyourfuture",
   password: "codeyourfuture",
   database: "cyf_hotels",
+
 });
 
 app.get("/users/:customerId", (req, res) => {
